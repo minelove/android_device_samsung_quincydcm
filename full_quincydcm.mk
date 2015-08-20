@@ -22,6 +22,9 @@
 #
 
 # Inherit from those products. Most specific first.
+
+TARGET_LOCALES := en_US en_GB ko_KR ja_JP
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from quincydcm device
