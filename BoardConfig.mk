@@ -1,4 +1,5 @@
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,7 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := SC-05D,quincydcm
 TARGET_BOARD_INFO_FILE ?= device/samsung/quincydcm/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_quincydcm_defconfig
+TARGET_KERNEL_CONFIG := lineageos_quincydcm_defconfig
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
